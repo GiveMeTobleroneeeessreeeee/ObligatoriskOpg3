@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Coding Template</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+  
+</head>
+
+<body>
+  <h1>String manipulations</h1>
+  <div>
+    <input placerholder="Type what to manipulate" id="wordinput">
+      <select id="wordoptions">
+        <option id="uc" value="uppercase" selected>All uppercase</option>
+        <option id="lc" value="lowercase">All lowercase</option>
+      </select>
+      <!-- <option id="uc" onselect="this=wordoptions.select" value="uppercase">All uppercase</option>
+      <option id="lc" onselect="this.wordoptions.select" value="lowercase">All lowercase</option> -->
+    <button id="doitBtn" >Do it!</button>
+  </div>
+  <div>
+    <h4 id="wordToShow"></h4>
+  </div>
+
+  <div id="content"></div>
+    
+  <script src="bundle.js"></script>
+</body>
+</html>
